@@ -1,6 +1,5 @@
 node {
    stage('Deploy') {
-      checkout scm
       // changing to build directory
       sh 'cd /tmp/build'
       sh 'rm -rf *'
